@@ -3,6 +3,10 @@
   "functions": {
     "api/*.js": { "maxDuration": 10 }
   },
+  "rewrites": [
+    { "source": "/", "destination": "/client/FileSYS-AI.html" },
+    { "source": "/app", "destination": "/client/FileSYS-AI.html" }
+  ],
   "headers": [
     {
       "source": "/api/(.*)",
