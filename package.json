@@ -1,0 +1,9 @@
+{
+  "name": "filesys-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "FileSYS AI serverless backend",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": { "dev": "vercel dev" }
+}
